@@ -3,161 +3,157 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>Chavez | Restaurant by Shawn Cirkiel | at the Radisson, Austin, TX</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+      <!-- Our CSS -->
+    <link rel="stylesheet" href="scss/application.css">
+
+    <!-- Slides.js CSS -->
+    <link rel="stylesheet" href="scss/slides.css">
+
   </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+        <!-- Slide/Header Image -->
+        <header>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+            <!-- Tagline inside Slideshow -->
+            <div class="tagline">
+                <!-- Chavez name/logo -->
+                <h1>Chavez</h1>
+                <h4>the new restaurant by shawn cirkiel<br />poolside at the radisson</h4>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
+
+            <!-- TODO there are ten images in the images folder. write image tags for each of them. then wrap the images in a #slides div so that Slides JS knows how to find them -->
+            <div id="slides">
+              <img src="images/chavez-1.jpg" alt="">
+              <img src="images/chavez-2.jpg" alt="">
+              <img src="images/chavez-3.jpg" alt="">
+              <img src="images/chavez-4.jpg" alt="">
+              <img src="images/chavez-5.jpg" alt="">
+              <img src="images/chavez-6.jpg" alt="">
+              <img src="images/chavez-7.jpg" alt="">
+              <img src="images/chavez-8.jpg" alt="">
+              <img src="images/chavez-9.jpg" alt="">
             </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+
+        </header>
+
+        <!-- Address, map, hours -->
+        <section class="address">
+            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? What would happen if you did that? -->
+            <div class="row">
+                <!-- TODO for each of these 3 divs (location, map, hours), add foundation column classes so that they sit side by side at large screen sizes, and stack on top of each other at a small screen size -->
+                <div class="location column large-4">
+                    <!-- TODO link to the hotel website and make the telephone a tel: link, and style this content -->
+                    at the Radisson Hotel
+                    111 east cesar chavez
+                    austin, texas 78701
+                    512.478.2291
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
-    </div>
+                <div class="map column large-4">
+                    <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
+                    <a href="http://goo.gl/maps/qgnVW"><img src="images/map.png"></a>
+                </div>
+
+                <div class="hours column large-4">
+                    <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
+                    breakfast: 6:30–11am
+                    lunch: 11am–3pm
+                    limited menu: 3–5pm
+                    dinner: 5–10pm
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="menu">
+            <div class="row">
+                <h2>Menus</h2>
+            </div>
+
+            <!-- TODO add a foundation row wrapping the menu-sections -->
+                <!-- TODO write the following HTML for each of the menus.
+
+                There will be 6 .menu-section divs: breakfast, lunch, dinner, dessert, cocktails, and wine. Give them an ID `menu-action-` for each section, e.g. #menu-action-breakfast
+
+                Give them a small-2 columns so they line up appropriately next to each other.
+
+                One of them is active in the mockup. Which one? What kind of classname would you add to show that it is active?
+
+                The menu-action class will be used in the JavaScript later.
+
+                -->
+                <div class="menu-action menu-section" id="menu-action-NAMEOFSECTION">
+                    <h3>
+                        <!-- TODO later we will write JavaScript to toggle the menu sections, using this link -->
+                        <a href="#">
+                            <!-- TODO name of menu section -->
+                        </a>
+                    </h3>
+                </div>
+
+            <!-- TODO add a foundation row to wrap around this content -->
+                <div id="menu-section-content" class="menu-section-content menu-dinner is-active">
+                    <!-- TODO we'll add the dinner menu content here. Write two columns with the class .menu-group and the foundation column classes. -->
+
+                        <div class="menu-group">
+                            <!-- TODO Inside each .menu-group, there should be an h4 with the title. -->
+                            <h4></h4>
+
+                            <!-- TODO for each item on the menu, write a div.menu-item. -->
+
+                                <!-- TODO inside each div.menu-item, there should be a div.menu-item-name, a p.menu-item-description, and a div.menu-item-price. -->
+
+                                <!-- TODO we are going to do ONLY the "Raw Bar" and "Entrees" section of the dinner menu for now. You can find that content in /menu-content/menu-dinner.md We'll add the rest of the menus with JSON later. -->
+                        </div>
+                </div>
+
+        </section>
+
+        <!-- Social media -->
+        <section class="contact">
+
+            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? -->
+
+                <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side. make them stack at small screen sizes. -->
+
+                <div class="email">
+                    <h5>Email</h5>
+                    <!-- TODO make this an email link -->
+                    info@chavez-austin.com
+                </div>
+
+                <div class="social">
+                    <h5>Social Media</h5>
+                    <!-- TODO write a div.social-links. -->
+                        <!-- TODO inside that div, write a link that links to the social media links, and use the social media images in the image folder. -->
+                            <!-- TODO Facebook http://facebook.com/ChavezATX -->
+                            <!-- TODO Twitter http://twitter.com/ChavezATX -->
+                            <!-- TODO Instagram http://instagram.com/ChavezATX -->
+                </div>
+
+                <div class="press columns small-4">
+                    <h5>Press Inquiries</h5>
+                    <!-- TODO make this an email link -->
+                    press@chavezrestaurant.com
+                </div>
+
+            </div>
+
+        </section>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+
+        <!-- JavaScripts -->
+
+        <!-- Slides.js -->
+        <!-- TODO link to the slides.min.js file -->
+        <!-- TODO write the .slidesjs() code to make the slideshow work -->
+
   </body>
 </html>
+
