@@ -1,3 +1,4 @@
+
 $black: #221c12;
 $eggWhite: #fffdf0;
 $shadow: rgba(34, 28, 18,.75);
@@ -19,9 +20,9 @@ $shadow: rgba(34, 28, 18,.75);
 }
 
 @mixin transition($property, $duration, $type) {
-    -webkit-transition: $property $duration $type;
-    -moz-transition: $property $duration $type;
-    -ms-transition: $property $duration $type;
-    -o-transition: $property $duration $type;
-    transition: $property $duration $type;
+	-webkit-transition: $property $duration $type;
+	-moz-transition: $property $duration $type;
+	-ms-transition: $property $duration $type;
+	-o-transition: $property $duration $type;
+	transition: $property $duration $type;
 }

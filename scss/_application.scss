@@ -26,7 +26,7 @@ header {}
 
 header h1 {
     /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
-    font-size: 4.5em;
+    font-size: 4em;
     /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
     @include text-shadow;
 }
@@ -46,11 +46,13 @@ header .tagline {
     @include padding;
     /* TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
     position: absolute;
-    top: 35%;
+    top: 25%;
     width: 100%;
     /* TODO when you make the slideshow work, the tagline will get hidden. why? what line of CSS do you have to write to make it appear ABOVE the slideshow? */
-    z-index: 1;
+    z-index: 99;
 }
+
+
 
 
 
