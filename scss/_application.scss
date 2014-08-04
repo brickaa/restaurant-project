@@ -85,7 +85,7 @@ section {
 .location,
 .hours {
     /* TODO give these two divs some padding so that they line up with the map */
-    padding: 7em 0;
+    padding: 5em 0;
 }
 
 .hours-label { font-weight: bold; }
@@ -110,10 +110,15 @@ section {
 
 }
 
-.menu h2, .menu h3, .menu h4 {
+.menu h2, .menu h3, {
     /* TODO give these headers a color of #221c12 */
     color: $black;
     text-align: center;
+}
+
+.menu h4 {
+    color: $black;
+    text-align: left;
 }
 
 
@@ -127,6 +132,12 @@ section {
     &:hover {
         @include transition(color,0.2s,ease);
         color: $black;
+        border-bottom: 1px solid $black;
+    }
+
+    &:active {
+        color: $black;
+        border-bottom: 1px solid $black;
     }
 }
 
@@ -137,18 +148,32 @@ section {
 
 .menu-section-content {
     /* TODO give this some space below the menu links */
+    margin-top: 3em;
 }
-
 
 .menu-item {
     /* TODO give each menu item some bottom margin */
+    margin-bottom: 1em;
 }
 
 /* TODO style the menu-item-name to be bold */
+.menu-item-name {
+    font-weight: bold;
+}
 
 /* TODO style the menu-item-description to be italic and be in one line with the price. You don't need to use Foundation classes to do this, but if you want to try and see, go for it! */
+.menu-item-description {
+    font-style: italic;
+    display: inline-block;
+}
 
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
+.menu-item-price {
+    font-weight: bold;
+    opacity: 50%;
+    display: inline-block;
+    padding-left: 0.6em;
+}
 
 
 .menu-item-name-no-description {
@@ -161,7 +186,26 @@ section {
 
 .contact {
     /* TODO add the dark brown background color, and the background image symbols-bottom. Change the background-position so that the bottom of it shows (where the symbols start to fade out). */
+    background-color: $black;
+    background-image: url('../images/symbols-bottom.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
     /* TODO add some top and bottom padding so that the content doesn't overlap the background image. Note how the padding changes the location of the background image. */
+    padding: 4em 0;
 }
 
 /* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */
+
+.social-links a {
+    display: inline-block;
+    padding-right: 2em;
+}
+
+.social-links img {
+    opacity: 50%;
+    
+    &:hover {
+        @include transition(color,0.2s,ease);
+        opacity: 100%;
+    }
+}

@@ -5,11 +5,15 @@ $(document).foundation();
 $(document).ready( function () {
 	$(function(){
 	  $("#slides").slidesjs({
-	    // width: 700,
-	    // height: 393,
-	    active: true
-	    // effect: "slide",
-	    // interval: 5000
+	  	active: true,
+	    effect: {
+	      fade: {
+	        speed: 7000,
+	          // [number] Speed in milliseconds of the fade animation.
+	        crossfade: true
+	          // [boolean] Cross-fade the transition.
+	      }
+	    }
 	  });
 	});
 });

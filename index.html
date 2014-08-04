@@ -45,7 +45,7 @@
             <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? What would happen if you did that? -->
             <div class="row">
                 <!-- TODO for each of these 3 divs (location, map, hours), add foundation column classes so that they sit side by side at large screen sizes, and stack on top of each other at a small screen size -->
-                <div class="location column large-4">
+                <div class="location column medium-4">
                     <!-- TODO link to the hotel website and make the telephone a tel: link, and style this content -->
                     <div class="location-name">
                       at the <a href="http://www.radisson.com/austin-hotel-tx-78701/txaustdt">Radisson Hotel</a> 
@@ -61,12 +61,12 @@
                     </div>
                 </div>
 
-                <div class="map column large-4">
+                <div class="map column medium-4">
                     <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
                     <a href="http://goo.gl/maps/qgnVW"><img src="images/map.png"></a>
                 </div>
 
-                <div class="hours column large-4">
+                <div class="hours column medium-4">
                     <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
                     <div>
                       <span class="hours-label">breakfast:</span><span class="hours-value"> 6:30–11am</span>
@@ -166,49 +166,85 @@
             </div>
 
             <!-- TODO add a foundation row to wrap around this content -->
+            <div class="row">
                 <div id="menu-section-content" class="menu-section-content menu-dinner is-active">
                     <!-- TODO we'll add the dinner menu content here. Write two columns with the class .menu-group and the foundation column classes. -->
 
-                        <div class="menu-group">
+                        <div class="menu-group column medium-6">
                             <!-- TODO Inside each .menu-group, there should be an h4 with the title. -->
-                            <h4></h4>
+                            <h4>Raw Bar</h4>
 
                             <!-- TODO for each item on the menu, write a div.menu-item. -->
+                            <div class="menu-item">
+                                <div class="menu-item-name">
+                                    Oysters
+                                </div>
+                                <div class="menu-item-description">
+                                    Tastes like the ocean on a breezy day.
+                                </div>
+                                <div class="menu-item-price">$15
+                                    
+                                </div>
+                            </div>
+                                <!-- TODO inside each div.menu-item, there should be a div.menu-item-name, a p.menu-item-description, and a div.menu-item-price. -->
 
+                                <!-- TODO we are going to do ONLY the "Raw Bar" and "Entrees" section of the dinner menu for now. You can find that content in /menu-content/menu-dinner.md We'll add the rest of the menus with JSON later. -->
+                        </div>
+                        <div class="menu-group column medium-6">
+                            <!-- TODO Inside each .menu-group, there should be an h4 with the title. -->
+                            <h4>Entrees</h4>
+
+                            <!-- TODO for each item on the menu, write a div.menu-item. -->
+                            <div class="menu-item">
+                                <div class="menu-item-name">
+                                    
+                                </div>
+                                <div class="menu-item-description">
+                                    
+                                </div>
+                                <div class="menu-item-price">
+                                    
+                                </div>
+                            </div>
                                 <!-- TODO inside each div.menu-item, there should be a div.menu-item-name, a p.menu-item-description, and a div.menu-item-price. -->
 
                                 <!-- TODO we are going to do ONLY the "Raw Bar" and "Entrees" section of the dinner menu for now. You can find that content in /menu-content/menu-dinner.md We'll add the rest of the menus with JSON later. -->
                         </div>
                 </div>
-
+            </div>
         </section>
 
         <!-- Social media -->
         <section class="contact">
 
             <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? -->
-
+            <div class="row socials">
                 <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side. make them stack at small screen sizes. -->
 
-                <div class="email">
+                <div class="email column small-12 medium-4">
                     <h5>Email</h5>
                     <!-- TODO make this an email link -->
-                    info@chavez-austin.com
+                    <a href="mailto:info@chavez-austin.com">info@chavez-austin.com</a>
                 </div>
 
-                <div class="social">
+                <div class="social column small-12 medium-4">
                     <h5>Social Media</h5>
                     <!-- TODO write a div.social-links. -->
+                    <div class="social-links">
                         <!-- TODO inside that div, write a link that links to the social media links, and use the social media images in the image folder. -->
                             <!-- TODO Facebook http://facebook.com/ChavezATX -->
+                        <a href="http://facebook.com/ChavezATX"><img src="images/facebook.png"></a>
                             <!-- TODO Twitter http://twitter.com/ChavezATX -->
+                        <a href="http://twitter.com/ChavezATX"><img src="images/twitter.png"></a>
                             <!-- TODO Instagram http://instagram.com/ChavezATX -->
+                        <a href="http://instagram.com/ChavezATX"><img src="images/instagram.png"></a>
+                    </div>
                 </div>
 
-                <div class="press columns small-4">
+                <div class="press columns small-12 medium-4">
                     <h5>Press Inquiries</h5>
                     <!-- TODO make this an email link -->
-                    press@chavezrestaurant.com
+                    <a href="mailto:press@chavezrestaurant.com">press@chavezrestaurant.com</a>
                 </div>
 
             </div>
