@@ -1,8 +1,9 @@
 $(function() {
-
     // TODO #1 Set an event listener to listen for clicks on each menu section
     // heading anchor
-
+    $( document ).on( 'click', '.menu-section', function (e) {
+      e.preventDefault();
+    });
     // Note: my menu section headings look like this:
     //
     // <div class="menu-section">
