@@ -1,0 +1,123 @@
+[{
+    "section": "For the Table",
+    "content": [{
+        "dish": "warm monkey",
+        "ingredients": "bread candied pecans",
+        "price": 4
+    }]
+}, {
+    "section": "Grains",
+    "content": [{
+        "dish": "yogurt",
+        "ingredients": "fresh fruit, granola",
+        "price": 7
+    }, {
+        "dish": "oatmeal",
+        "ingredients": "caramelized banana",
+        "price": 6
+    }, {
+        "dish": "local milled grits",
+        "price": 3
+    }]
+}, {
+    "section": "Local Favorites",
+    "content": [{
+        "dish": "huevos rancheros",
+        "ingredients": "farm eggs, crispy tostadas",
+        "price": 10
+    }, {
+        "dish": "breakfast tacos",
+        "ingredients": "choice of chorizo, sausage, or bacon farm eggs, salsa verde, crispy potatoes",
+        "price": 11
+    }, {
+        "dish": "chavez migas",
+        "ingredients": "tortilla strips, bell peppers, crispy potatoes, toast",
+        "price": 11
+    }]
+}, {
+    "section": "Eggs & Omelets",
+    "content": [{
+        "dish": "chavez breakfast",
+        "ingredients": "2 farm eggs, crispy potatoes, house bacon",
+        "price": 11
+    }, {
+        "dish": "steak and farm eggs",
+        "ingredients": "crispy potatoes, pasilla salsa",
+        "price": 15
+    }, {
+        "dish": "chicken fried steak and farm eggs",
+        "ingredients": "crispy potatoes, white gravy",
+        "price": 13
+    }, {
+        "dish": "egg white omelet",
+        "ingredients": "pasilla chili, fruit",
+        "price": 10
+    }, {
+        "dish": "ham and cheese omelet",
+        "ingredients": "roasted pepper rajas, crispy potatoes",
+        "price": 11
+    }]
+}, {
+    "section": "Classic",
+    "content": [{
+        "dish": "smoked salmon",
+        "ingredients": "traditional garnish, bagel",
+        "price": 11
+    }, {
+        "dish": "texas french toast",
+        "ingredients": "pecan butter, orange sugar, maple syrup",
+        "price": 9
+    }, {
+        "dish": "local milled griddle cakes",
+        "ingredients": "maple syrup, fresh fruit",
+        "price": 10
+    }]
+}, {
+    "section": "Sides",
+    "content": [{
+        "dish": "house-made maple sausage",
+        "price": 3
+    }, {
+        "dish": "applewood smoked bacon",
+        "price": 3
+    }, {
+        "dish": "house chorizo",
+        "price": 3
+    }, {
+        "dish": "seared ham",
+        "price": 5
+    }, {
+        "dish": "2 farm egg",
+        "price": 4
+    }, {
+        "dish": "fresh fruit",
+        "price": 5
+    }, {
+        "dish": "little cake maple syrup",
+        "price": 2
+    }, {
+        "dish": "fried potatoes",
+        "price": 3
+    }]
+}, {
+    "section": "Breakfast Beverages",
+    "content": [{
+        "dish": "coffee",
+        "price": 3
+    }, {
+        "dish": "cappuccino",
+        "price": 3
+    }, {
+        "dish": "latte",
+        "price": 3
+    }, {
+        "dish": "espresso",
+        "price": 3
+    }, {
+        "dish": "tea",
+        "price": 3
+    }, {
+        "dish": "juice - orange, grapefruit, V - 8, cranberry, pineapple, or apple",
+        "price": 4
+    }]
+}]

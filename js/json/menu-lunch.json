@@ -1,0 +1,217 @@
+[{
+    "section": "For the Table",
+    "content": [{
+        "dish": "texas 'board'",
+        "ingredients": "marrow, lardo, spicy butter, house tortillas and cornbread",
+        "price": 11
+    }, {
+        "dish": "tostadas salsa roja, salsa verde",
+        "price": 6
+    }, {
+        "dish": "house made escabeche trio",
+        "price": 6
+    }, {
+        "dish": "guacamole",
+        "ingredients": "avocado, tomato, onion, lime, cilantro",
+        "price": 9
+    }]
+}, {
+    "section": "Appetizers",
+    "content": [{
+        "dish": "grilled quail en mole ",
+        "ingredients": "peanut mole, garlic",
+        "price": 10
+    }, {
+        "dish": "bean and cheese empanadas ",
+        "ingredients": "black beans, oaxaca cheese, salsa verde",
+        "price": 9
+    }, {
+        "dish": "tostaditas de cangrejo ",
+        "ingredients": "lump crab, mango, avocado",
+        "price": 10
+    }, {
+        "dish": "el mar frito",
+        "ingredients": "fried squid, shrimp, oysters, chipotle aioli",
+        "price": 11
+    }, {
+        "dish": "oyster taquitos",
+        "ingredients": "avocado crema, slaw, habanero",
+        "price": 9
+    }, {
+        "dish": "sopes de carnitas pork, black ",
+        "ingredients": "beans, tomatillo, lime",
+        "price": 10
+    }, {
+        "dish": "baby back ribs",
+        "ingredients": " manzanilla olive, carrot escabeche, agave glaze",
+        "price": 12
+    }]
+}, {
+    "section": "Small Salads",
+    "content": [{
+        "dish": "mango ",
+        "ingredients": "jicama, chili and lime ",
+        "price": 5
+    }, {
+        "dish": "blackened pineapple ",
+        "ingredients": "cucumber ",
+        "price": 4
+    }, {
+        "dish": "green beans",
+        "ingredients": "peanuts, fresno peppers ",
+        "price": 5
+    }]
+}, {
+    "section": "Large Salads",
+    "content": [{
+        "dish": "classic caesar",
+        "ingredients": "romaine, parmesan crouton ",
+        "price": 10
+    }, {
+        "dish": "ensalada de arugula",
+        "ingredients": "charred tomatoes, arugula, red onion, avocado, totopes, lime vinaigrette",
+        "price": 9
+    }, {
+        "dish": "beet salad",
+        "ingredients": "orange, watercress, candied pecans, cotija, red wine orange vinaigrette add grilled steak +10, shrimp +8, or chicken +6",
+        "price": 11
+    }]
+}, {
+    "section": "Soups",
+    "content": [{
+        "dish": "chicken fideo",
+        "ingredients": "winter vegetables, fideo noodles, oregano",
+        "price": 7
+    }, {
+        "dish": "butternut squash ",
+        "ingredients": "yogurt, crouton, pepitas, lime",
+        "price": 7
+    }]
+}, {
+    "section": "Raw Bar",
+    "content": [{
+        "dish": "malpeque oyster",
+        "ingredients": "prince edward island, canada ",
+        "price": 3
+    }, {
+        "dish": "bluepoint oyster",
+        "ingredients": "long island sound ",
+        "price": 3
+    }, {
+        "dish": "seafood coctel",
+        "ingredients": "shrimp, avocado, tomato, cucumber, onion",
+        "price": 11
+    }, {
+        "dish": "aw bass",
+        "ingredients": "avocado, lime, guajillo",
+        "price": 11
+    }, {
+        "dish": "vuelve a la vida",
+        "ingredients": "squid, shrimp, salmon, spicy tomato, celery ",
+        "price": 9
+    }, {
+        "dish": "ceviche traditional",
+        "ingredients": "avocado, tomato, jalapeño ",
+        "price": 9
+    }, {
+        "dish": "hamachi",
+        "ingredients": " horchata, orange",
+        "price": 11
+    }, {
+        "dish": "vegan ceviche chayote, cauliflower, beet, orange",
+        "price": 8
+    }]
+}, {
+    "section": "Tortas",
+    "content": [{
+        "dish": "chavez burger",
+        "ingredients": "rajas, lettuce, tomato, onion, cheese",
+        "price": 12
+    }, {
+        "dish": "tofu torta",
+        "ingredients": "black beans, lettuce, tomato, onion, avocado, cheese",
+        "price": 9
+    }, {
+        "dish": "grilled chicken torta",
+        "ingredients": "avocado, bacon, lettuce, tomato, onion, cheese",
+        "price": 11
+    }, {
+        "dish": "fried fish torta",
+        "ingredients": "cabbage, orange chipotle",
+        "price": 11
+    }, {
+        "dish": "pork carnitas torta ",
+        "ingredients": "pickled red onion",
+        "price": 11
+    }, {
+        "dish": "chicken tinga",
+        "ingredients": "pickled red onion, cilantro",
+        "price": 10
+    }]
+}, {
+    "section": "Entrées",
+    "content": [{
+        "dish": "carne asada",
+        "ingredients": "flank steak, grilled onions, pico de gallo ",
+        "price": 19
+    }, {
+        "dish": "grilled hen",
+        "ingredients": "cauliflower, pickle, red onions, salsa verde ",
+        "price": 16
+    }, {
+        "dish": "lamb en mole",
+        "ingredients": "poblano, chayote, tomatoes, raisins ",
+        "price": 22
+    }, {
+        "dish": "blade steak al pastor",
+        "ingredients": "charred tomato, radish, onion ",
+        "price": 22
+    }, {
+        "dish": "striped bass",
+        "ingredients": "hominy, mushrooms, chard, hoja santa, guajillo ",
+        "price": 23
+    }, {
+        "dish": "salmon veracruz",
+        "ingredients": "tomato, onion, peppers, capers, olives ",
+        "price": 19
+    }, {
+        "dish": "herb crusted mahi mahi",
+        "ingredients": "salsa negra, pineapple, turnips, scallion ",
+        "price": 22
+    }, {
+        "dish": "grilled shrimp al mojo de ajo",
+        "ingredients": "garlic, lime, tomato, tequila, greens, coronas ",
+        "price": 21
+    }, {
+        "dish": "oak grilled filet",
+        "ingredients": "rajas, pasilla red wine reduction ",
+        "price": 36
+    }]
+}, {
+    "section": "Sides",
+    "content": [{
+        "dish": "enchiladas callejeras",
+        "ingredients": "salsa ranchero, corn tortilla, cotija",
+        "price": 6
+    }, {
+        "dish": "butter tamal",
+        "ingredients": "peanut mole",
+        "price": 6
+    }, {
+        "dish": "roasted carrots in adobo",
+        "ingredients": "orange",
+        "price": 6
+    }, {
+        "dish": "ranch beans and cornbread",
+        "ingredients": "pork",
+        "price": 6
+    }, {
+        "dish": "roast squash",
+        "ingredients": "chipotle, orange, piloncillo",
+        "price": 7
+    }, {
+        "dish": "brussel sprouts",
+        "ingredients": "chorizo, lime, raisins",
+        "price": 7
+    }]
+}]

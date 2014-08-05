@@ -1,4 +1,4 @@
-$(function() {
+$( document ).ready( function () {
     // TODO #1 Set an event listener to listen for clicks on each menu section
     // heading anchor
     $( document ).on( 'click', '.menu-section', function (e) {
@@ -34,6 +34,7 @@ $(function() {
       // Once you're started with TODO #2, call the getMenu function here,
       // passing id as the argument
       getMenu( id );
+
     });
 
 
@@ -53,7 +54,7 @@ $(function() {
 
     function getMenu( course ) {
       // Use `$.getJSON` to get the menu for whatever menu heading was clicked
-      $.getJSON( 'http://mksrestaurantapi.herokuapp.com/menu-' + course + '.json', function( json ) {
+      $.getJSON( 'js/json/menu-' + course + '.json', function( json ) {
         populateMenu( json );
         // Once you're started with TODO #3, call the populateMenu function here
         // and pass json as the argument
@@ -73,22 +74,23 @@ $(function() {
 
         for( var j = 0; j < json[i].content.length; j++ ) {
           html += '<div class="menu-item">';
-          html += '<div class="menu-item-dish">' + json[i].content[j].dish + '</div>';
-          html += '<p class="menu-item-ingredients">' + json[i].content[j].ingredients + '</p>';
-          html += '<div class="menu-item-price">' + json[i].content[j].price + '</div>';
+          html += '<div class="menu-item-name">' + json[i].content[j].dish + '</div>';
+          html += '<p class="menu-item-description">' + (json[i].content[j].ingredients || '') + '</p>';
+          html += '<div class="menu-item-price">' + (json[i].content[j].price || '') + '</div>';
           html += '</div>';
         }
-
         html += '</div>';
       }
 
       // Use `.html` to replace the contents of `.menu-section-content`
       $( '.menu-section-content' ).html( html );
+
+
     }
-
-
 
     // TODO #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
+
+  getMenu('dinner');
 
 });

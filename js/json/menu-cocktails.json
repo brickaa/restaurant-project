@@ -1,0 +1,56 @@
+[{
+    "section": "Cocktails",
+    "content": [{
+        "dish": "classic margarita",
+        "ingredients": "milagro reposado, lime, salt",
+        "price": 9
+    }, {
+        "dish": "sangria rose",
+        "ingredients": "solerno, hibiscus, cinnamon, pear, sparkling wine",
+        "price": 9
+    }, {
+        "dish": "congress tito’s",
+        "ingredients": "hibiscus, lemon, cava ",
+        "price": 10
+    }, {
+        "dish": "smoked cherry margarita",
+        "ingredients": "don julio repo, cherry, habanero, lime ",
+        "price": 12
+    }, {
+        "dish": "paloma camarena silver",
+        "ingredients": "grapefruit, salt",
+        "price": 9
+    }, {
+        "dish": "thirsty bird ron zacapa",
+        "ingredients": "old tom gin, benedictine, lime ",
+        "price": 10
+    }, {
+        "dish": "lincoln county tx whiskey",
+        "ingredients": "ancho reyes liqueur, yerba mate, cacao ",
+        "price": 12
+    }, {
+        "dish": "layover waterloo gin",
+        "ingredients": "creme de violette, maraschino, grapefruit ",
+        "price": 10
+    }, {
+        "dish": "chavez’s sazerac mezcal",
+        "ingredients": "piloncillo, pernod, bitters ",
+        "price": 11
+    }, {
+        "dish": "kale mary ketle",
+        "ingredients": "1 citroen, kale, celery, tomato, salt ",
+        "price": 10
+    }, {
+        "dish": "michelada",
+        "ingredients": "pearl snap pilsner bloody mary mix, lime, salt",
+        "price": 8
+    }, {
+        "dish": "guajillo manhattan",
+        "ingredients": "bulleit rye, carpano antica, guajillo chile ",
+        "price": 12
+    }, {
+        "dish": "caipirinha leblon",
+        "ingredients": "cachaca, lime, sugar",
+        "price": 9
+    }]
+}]

@@ -151,6 +151,11 @@ section {
     margin-top: 3em;
 }
 
+.menu-section-item.is-active {    
+    color: $black;
+    border-bottom: 1px solid $black;     
+}
+
 .menu-item {
     /* TODO give each menu item some bottom margin */
     margin-bottom: 1em;
@@ -164,15 +169,14 @@ section {
 /* TODO style the menu-item-description to be italic and be in one line with the price. You don't need to use Foundation classes to do this, but if you want to try and see, go for it! */
 .menu-item-description {
     font-style: italic;
-    display: inline-block;
+    display: inline;
 }
 
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
 .menu-item-price {
     font-weight: bold;
     opacity: 50%;
-    display: inline-block;
-    padding-left: 0.6em;
+    display: block;
 }
 
 
